@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.taskCounter {
+  width: 46em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+  margin-top: 4em;
+}
+
+.created {
+  color: var(--blue-200);
+  margin-right: 0.5em;
+}
+
+.completed {
+  color: var(--purple-200);
+  margin-right: 0.5em;
+}
+
+p {
+  display: flex;
+  padding: 0.125em 0.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 62.438em;
+  background: var(--Gray-400, #333);
+}
