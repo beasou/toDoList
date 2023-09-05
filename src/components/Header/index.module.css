@@ -3,6 +3,7 @@ header{
     align-items: center;
     justify-content: center;
 
-    background: black;
+    background: var(--gray-700);
+    height: 12.5em;
     padding: 1.25rem 0;
 }
