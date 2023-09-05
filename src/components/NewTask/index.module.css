@@ -1,0 +1,27 @@
+.newtask {
+  display: flex;
+  padding: 1em;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  flex: 1 0 0;
+  margin-top: -1.688em;
+ 
+}
+input {
+  width: 39.875em;
+  border: 1px solid var(--Gray-700);
+  padding: 1em;
+  color: var(--Gray-100);
+}
+button {
+  display: flex;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  border-radius: .5em;
+  border: none;
+  background: var(--blue-400);
+  color: var(--Gray-100);
+}
