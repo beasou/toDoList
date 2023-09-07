@@ -10,19 +10,26 @@
   align-items: flex-end;
   align-self: stretch;
   margin-top: 4em;
+ 
 }
-
 .created {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   color: var(--blue-200);
   margin-right: 0.5em;
 }
 
 .completed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--purple-200);
-  margin-right: 0.5em;
+  
 }
 
-p {
+.completed  p {
   display: flex;
   padding: 0.125em 0.5em;
   flex-direction: column;
@@ -30,4 +37,15 @@ p {
   align-items: center;
   border-radius: 62.438em;
   background: var(--Gray-400, #333);
+  margin-left:0.5em;
+}
+.created p{
+  display: flex;
+  padding: 0.125em 0.5em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 62.438em;
+  background: var(--Gray-400, #333);
+  margin-left:0.5em;
 }

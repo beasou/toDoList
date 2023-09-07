@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.task {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 12px;
+  width: 704px;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  background: var(--gray-500);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.trash {
+  color: var(--gray-300);
+}
+
+.trash:hover {
+  color: var(--danger);
+}
+.circle{
+    color: var(--blue-400);
+}
+
+.check{
+ color:var(--purple-400);
+ weight:fill;
+}
+
